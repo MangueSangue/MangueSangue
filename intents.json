@@ -1,0 +1,26 @@
+{"intents": [ 
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "how is it going", "what's up"],
+    "responses": ["Hello!", "Hey", "What can I do for you?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["see you", "Goodbye", "I am leaving", "Have a good day", "bye", "cya"],
+    "responses": ["Pleasure to serve you", "Goodbye!", "Sad to see you go :("]
+    },
+    {"tag": "Housing",
+    "patterns": ["What are the requirements for renting a house or apartment?", "Where to find accommodation?", "Which are the best websites for apartment hunting?", "Can humber provide help about hoousing for students?"],
+    "responses": ["Please visit https://www.canada.ca/en/services/finance/manage/housing.html for more information"]
+    },
+    {"tag": "Job Search",
+    "patterns": ["How to get an interview?", "How can I find a job? ", "Employment", "I am looking for a job"],
+    "responses": ["Visit www.Canadajobbank.com", "We have a placement advisor who can help you out!, [contact]"]
+    },
+    {"tag": "Programs",
+    "patterns": ["What programs does Humber offer", "What programs are available", "Which postgraduate certificates are best?"],
+    "responses": ["We offer a wide range of programs for everyone, here is a list with all of them so you can go through them: https://humber.ca/cfe/programs.html"]
+    },
+    {"tag": "Scholarship",
+    "patterns": ["How can I get a scholarship", "How can I apply for school credit", "What scholarships are available"],
+    "responses": ["Please refer to this link, here you will find all the information you need regarding scholarships; https://humber.ca/admissions/student-fees-financial-resources/scholarships-bursaries.html"]
+    }
+]}
